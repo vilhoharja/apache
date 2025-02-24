@@ -13,7 +13,7 @@
 ![image](https://github.com/user-attachments/assets/5f74a8ae-ef60-4196-8579-f07061cec355)
 
 -MySQL asennetaan komennolla ”sudo apt install mysql-server”. Kun asennus on valmis, siirrytään MySQL tietokantaan komennolla ”sudo mysql”. Sen jälkeen annetaan komento “ALTER USER ’root’@’localhost’ IDENTIFIED WITH mysql_native_password BY ’’;” “ALTER USER” 
- muokkaa olemassa olevan käyttäjän tietoja. ”’root’@’localhost’” kohdistaa muutoksen käyttäjään ’root’ joka, kirjautuu lokaalisti. ”IDENTIFIED WITH mysql_native_password” määrissää todennuslisäosan, jota käyttäjä käyttää kirjautumiseen. ”BY ’’” asettaa käyttäjän 
+ muokkaa olemassa olevan käyttäjän tietoja. ”’root’@’localhost’” kohdistaa muutoksen käyttäjään ’root’ joka, kirjautuu lokaalisti. ”IDENTIFIED WITH mysql_native_password” määrittää todennuslisäosan, jota käyttäjä käyttää kirjautumiseen. ”BY ’’” asettaa käyttäjän 
  salasanan.
 
 ![image](https://github.com/user-attachments/assets/08dfa3dc-710c-4167-8978-1a9f902d89aa)
